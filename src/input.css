@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .navbar-fixed {
@@ -12,21 +12,30 @@ body {
 }
 
 .hamburger-line {
-  @apply w-[30px] h-[2px] my-2 block bg-dark dark:bg-white;
+  @apply my-2 block h-[2px] w-[30px] bg-dark dark:bg-white;
 }
 
 .hamburger-active > span:nth-child(1) {
-  @apply rotate-45
+  @apply rotate-45;
 }
 
 .hamburger-active > span:nth-child(3) {
-  @apply -rotate-45
+  @apply -rotate-45;
 }
 
 .hamburger-active > span:nth-child(2) {
-  @apply scale-0
+  @apply scale-0;
 }
 
 #dark-toggle:checked ~ label div.toggle-circle {
-  @apply translate-x-3
+  @apply translate-x-3;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

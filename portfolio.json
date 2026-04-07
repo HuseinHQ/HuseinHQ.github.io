@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Kedai Kopi Kenangan Abadi",
+    "description": "Berisi tentang profil sebuah kedai kopi beserta katalog kopi yang dilengkapi dengan gambar dan harga.",
+    "image": "dist/img/portfolio/kedai-kopi.png",
+    "alt": "Kedai Kopi Kenangan Abadi",
+    "url": "https://kedai-kopi.huseinhk.com"
+  },
+  {
+    "id": 2,
+    "title": "Hunger Apps",
+    "description": "Sebuah website yang menampilkan daftar restaurant terdekat di daerah Anda.",
+    "image": "dist/img/portfolio/restaurant-app.jpg",
+    "alt": "Hunger Apps",
+    "url": "https://restaurant.huseinhk.com"
+  },
+  {
+    "id": 3,
+    "title": "Home Away",
+    "description": "Sebuah website clone Air BnB yang menampilkan daftar penginapan di berbagai negara dengan fitur booking.",
+    "image": "dist/img/portfolio/3.png",
+    "alt": "Home Away",
+    "url": "https://home-away.huseinhk.com"
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Keempat",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur delectus optio in?",
+    "image": "dist/img/portfolio/4.jpeg",
+    "alt": "Portfolio Keempat",
+    "url": "#"
+  },
+  {
+    "id": 5,
+    "title": "Portfolio Keempat",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur delectus optio in?",
+    "image": "dist/img/portfolio/4.jpeg",
+    "alt": "Portfolio Keempat",
+    "url": "#"
+  }
+]
